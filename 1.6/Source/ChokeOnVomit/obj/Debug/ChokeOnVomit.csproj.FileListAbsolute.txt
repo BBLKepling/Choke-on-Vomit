@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Choke on Vomit\Source\ChokeOnVomit\obj\Debug\ChokeOnVomit.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Choke on Vomit\Source\ChokeOnVomit\obj\Debug\ChokeOnVomit.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Choke on Vomit\Assemblies\ChokeOnVomit.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Choke on Vomit\Assemblies\ChokeOnVomit.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Choke on Vomit\Source\ChokeOnVomit\obj\Debug\ChokeOnVomit.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Choke on Vomit\Source\ChokeOnVomit\obj\Debug\ChokeOnVomit.pdb

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Choke on Vomit</name>
+  <author>bblkepling</author>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <packageId>bblkepling.chokeonvomit</packageId>
+  <description>Let's blacked out pawns choke on their own vomit and go out like Hendrix.</description>
+  <modDependencies>
+  </modDependencies>
+  <loadAfter>
+  </loadAfter>
+</ModMetaData>

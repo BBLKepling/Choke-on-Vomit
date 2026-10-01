@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef>
+    <defName>BBLK_ChokeOnVomit</defName>
+    <label>choking on vomit</label>
+    <labelNoun>an esophagus blockage</labelNoun>
+    <description>A blockage in the esophagus, it needs to be cleared before they choke to death.</description>
+    <hediffClass>ChokeOnVomit.Hediff_ChokeOnVomit</hediffClass>
+    <defaultLabelColor>(1, 0.2, 0.2)</defaultLabelColor>
+    <initialSeverity>0.4</initialSeverity>
+    <lethalSeverity>1</lethalSeverity>
+    <tendable>true</tendable>
+    <comps>
+		<!--
+      <li Class="HediffCompProperties_DamageBrain">
+        <damageAmount>1</damageAmount>
+        <mtbDaysPerStage>
+          <li>100</li>
+          <li>0.1</li>
+          <li>0</li>
+        </mtbDaysPerStage>
+      </li>
+		-->
+    </comps>
+    <stages>
+      <li>
+        <label>gaging</label>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>turning blue</label>
+        <minSeverity>0.75</minSeverity>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>ChemicalDamageModerate</hediff>
+            <mtbDays>0.1</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+      <li>
+        <label>fatal</label>
+        <minSeverity>1</minSeverity>
+      </li>
+    </stages>
+  </HediffDef>
+<!--
+  <ThoughtDef>
+    <defName>BBLK_ChokeOnVomit</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <stackLimit>10</stackLimit>
+    <stages>
+      <li>
+        <label>choked on vomit</label>
+        <description>I choked on someone else's vomit.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  -->
+</Defs>

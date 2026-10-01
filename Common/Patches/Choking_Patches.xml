@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/HediffDef[defName="AlcoholHigh" or 
+                          defName="BBLK_ChemfuelHigh"]/stages/li[label="blackout"]/hediffGivers</xpath>
+    <value>
+            <li Class="HediffGiver_Random">
+              <hediff>BBLK_ChokeOnVomit</hediff>
+              <mtbDays>0.25</mtbDays>
+              <partsToAffect>
+                <li>Neck</li>
+              </partsToAffect>
+            </li>
+    </value>
+  </Operation>
+
+</Patch>
